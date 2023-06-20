@@ -54,15 +54,6 @@ class Sfera : public Function<dim>
     , raggio(r)
     {}
 
-    // Sfera()
-    // {
-    //   for (unsigned int i = 0; i < dim; i++)
-    //   centro[i] = 0.0;
-    //   raggio = 0.0;
-    // }
-   
-    //Sfera() {}
-
     bool appartenenza(const Point<dim> &d)
     {
       Point<dim> diff;
@@ -293,7 +284,7 @@ class Sfera : public Function<dim>
 
 
     }
-    //  std::vector<Sfera> sfere;
+    
   };
 
   // Reaction coefficient.
